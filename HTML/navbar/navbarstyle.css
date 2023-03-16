@@ -1,0 +1,78 @@
+body {margin: 0;
+    ---background-color: #e5e5f7;
+    ---background-image: radial-gradient(#444cf7 0.9500000000000001px, transparent 0.9500000000000001px), radial-gradient(#444cf7 0.9500000000000001px, #e5e5f7 0.9500000000000001px);
+    ---background-size: 38px 38px;
+    ---background-position: 0 0,19px 19px;
+    padding: 0;
+    }
+
+nav{
+    background-color: slategrey;
+    padding: 5px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: #088db5;
+    padding: 10px;
+    margin: 0;
+    
+    
+    list-style: none;
+}
+
+nav a{
+    color: purple;  
+    
+    
+}
+
+nav a:hover{
+    color: rgb(225, 161, 225);
+  
+}
+
+nav ul a{
+    color: white;
+    text-decoration: none;
+}
+nav ul a:hover{
+    color: #a0c0c9;
+    transition: 0.3s;
+}
+
+textarea{width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+
+}
+
+button{
+    width: 30%;
+    padding: 5px;
+    background: #088db5;
+    border: none;
+    border-radius: 5px;
+    color: #e5e5f7;
+    transition: 0.2s;
+}
+
+button:hover{
+    color: #2c170d;
+}
+
+button:active{
+  box-shadow: inset 3px 2px 15px -5px #4bc808;
+}
+
+div{
+    color: #444cf7;
+    float: right;
+    margin: 10px;
+    width: 300px;
+    border: 2px solid black;
+
+    
+   
+}
